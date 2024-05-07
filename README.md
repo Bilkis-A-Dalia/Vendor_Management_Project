@@ -45,6 +45,9 @@ python manage.py createsuperuser
 ```bash
 python manage.py runserver
 
+**To run tests:**
+```bash
+python manage.py test
 
 # Vendor Management System with Performance Metrics
 
