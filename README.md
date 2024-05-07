@@ -22,21 +22,23 @@ This Vendor Management System (VMS) is developed using Django and Django REST Fr
    git clone https://github.com/yourusername/vendor-management-system.git
    cd vendor-management-system
    
-##Create a virtual environment:
--python3 -m venv venv
-**source venv/bin/activate  # For Linux/Mac
-**venv\Scripts\activate      # For Windows
+## Create a virtual environment:
 
-##Install dependencies:
--pip install -r requirements.txt
+```bash
+python3 -m venv venv
+source venv/bin/activate  # For Linux/Mac
+venv\Scripts\activate      # For Windows
 
-##Apply migrations:
+**Install dependencies:**
+pip install -r requirements.txt
+
+**Apply migrations:**
 -python manage.py migrate
 
-##Create a superuser (for admin access):
+**Create a superuser (for admin access):**
 -python manage.py createsuperuser
 
-##Run the development server:
+**Run the development server:**
 -python manage.py runserver
 
 
