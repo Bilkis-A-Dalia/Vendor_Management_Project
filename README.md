@@ -30,16 +30,20 @@ source venv/bin/activate  # For Linux/Mac
 venv\Scripts\activate      # For Windows
 
 **Install dependencies:**
+```bash
 pip install -r requirements.txt
 
 **Apply migrations:**
--python manage.py migrate
+```bash
+python manage.py migrate
 
 **Create a superuser (for admin access):**
--python manage.py createsuperuser
+```bash
+python manage.py createsuperuser
 
 **Run the development server:**
--python manage.py runserver
+```bash
+python manage.py runserver
 
 
 # Vendor Management System with Performance Metrics
